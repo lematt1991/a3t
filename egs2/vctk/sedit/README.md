@@ -24,7 +24,7 @@ which sox
 # 2. Prepare data
 ## Download vctk, preprocess, prepare vocab
 ```
-./run.sh --stage 0 --stop_stage 5
+./run.sh --start_stage 0 --stop_stage 5
 ```
 ## Alignment
 ```
@@ -37,10 +37,10 @@ then exclude them from all .scp.
 
 ## Statistics of the training features lengths
 ```
-./run.sh --stage 5 --stop_stage 6
+./run.sh --start_stage 5 --stop_stage 6
 ```
 
 # 3. Training
 ```
-./run.sh --stage 6 --stop_stage 7
+./run.sh --start_stage 6 --stop_stage 7
 ```
